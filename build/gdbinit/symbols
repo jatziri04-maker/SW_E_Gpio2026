@@ -1,0 +1,9 @@
+
+
+# Load bootloader symbols
+set confirm off
+    add-symbol-file C:/Users/Premier 2022/Documents/SEMESTRE_8/SOFTWARE_EMBEBIDO/workspace_swemb/gpio_init2026_v2/build/bootloader/bootloader.elf
+set confirm on
+
+# Load application symbols
+file C:/Users/Premier 2022/Documents/SEMESTRE_8/SOFTWARE_EMBEBIDO/workspace_swemb/gpio_init2026_v2/build/app-template.elf
