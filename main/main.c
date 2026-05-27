@@ -6,6 +6,8 @@
 		 	 
 		APLICACIÓN: BTN1= activa secuencia			SECUENCIA: R -> G -> B y se repite
 					BTN2= detiene secuencia
+					
+					ejemplo demodificacion para commit de branches 
 */
 
 
@@ -14,6 +16,8 @@
    DRIVER
    ═══════════════════════════════════════════════════════════ */
 
+#include "gpio_2026.h"
+#include "../gpio_2026.c"
 #include "gpio_2026.h"
 #include "../gpio_2026.c"
 
